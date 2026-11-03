@@ -1,0 +1,33 @@
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Cau hinh va thong tin nhay cam
+.env
+.env.*
+!.env.example
+*.log
+
+# Kaggle
+.kaggle/
+
+# Du lieu lon va file trung gian
+data/raw/
+data/processed/
+data/exports/
+
+# GitHub goc dung de tham khao
+original-project/
+
+# He thong
+.DS_Store
+Thumbs.db
+.vscode/
+
+# File Java do Sqoop tu sinh
+/products.java
+/transactions.java
+/transaction_items.java
