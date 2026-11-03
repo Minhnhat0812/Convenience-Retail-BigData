@@ -3,7 +3,7 @@
 set -euo pipefail
 
 DB="jdbc:mysql://127.0.0.1:3306/convenience_retail"
-HDFS="/user/minhnhat/convenience_retail/raw"
+HDFS="/user/$(whoami)/convenience_retail/raw"
 
 for table in products transactions transaction_items
 do
